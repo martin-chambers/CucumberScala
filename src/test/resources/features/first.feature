@@ -1,7 +1,7 @@
-Feature: My First Mozilla Cucumber test
+Feature: My First Cucumber test
 
   As a tester,
-  I would like to utilize cucumber with Mozilla,
+  I would like to utilize cucumber with Mozilla and Chrome,
   So that I can create BDD style selenium-webdriver tests.
 
   Scenario: Bing search, using selenium on Mozilla

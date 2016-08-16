@@ -41,8 +41,5 @@ class ChromeCucumberTest extends ScalaDsl with EN with Matchers with WebBrowser 
     def countSubstring(str: String, substr: String) = substr.r.findAllMatchIn(str).length
     val html = driver.getPageSource()
     assert(countSubstring(html, searchTerm) > occurences)
-
-
   }
-
 }

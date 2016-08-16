@@ -6,7 +6,6 @@ scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq(
   "org.scalatest" % "scalatest_2.11" % "3.0.0" % "test",
-
   "org.scala-lang" % "scala-library" % "2.11.8",
   "info.cukes" % "cucumber-scala_2.12" % "1.2.4",
   "info.cukes" % "cucumber-junit" % "1.2.4",
